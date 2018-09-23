@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1E4886911ED0936C00E96056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4886901ED0936C00E96056 /* AppDelegate.swift */; };
-		1E4886931ED0936C00E96056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4886921ED0936C00E96056 /* ViewController.swift */; };
 		1E4886951ED0936C00E96056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4886941ED0936C00E96056 /* Assets.xcassets */; };
 		1E4886981ED0936C00E96056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4886961ED0936C00E96056 /* Main.storyboard */; };
+		1EE558071ED97DC800F0A945 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EE558061ED97DC800F0A945 /* Config.plist */; };
+		1EE558091ED97DD700F0A945 /* ExampleConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EE558081ED97DD700F0A945 /* ExampleConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E48868D1ED0936C00E96056 /* mediakeys-spotify-connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mediakeys-spotify-connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4886901ED0936C00E96056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E4886921ED0936C00E96056 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E4886941ED0936C00E96056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4886971ED0936C00E96056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E4886991ED0936C00E96056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE558061ED97DC800F0A945 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		1EE558081ED97DD700F0A945 /* ExampleConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExampleConfig.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				1E4886901ED0936C00E96056 /* AppDelegate.swift */,
-				1E4886921ED0936C00E96056 /* ViewController.swift */,
 				1E4886941ED0936C00E96056 /* Assets.xcassets */,
 				1E4886961ED0936C00E96056 /* Main.storyboard */,
 				1E4886991ED0936C00E96056 /* Info.plist */,
+				1EE558061ED97DC800F0A945 /* Config.plist */,
+				1EE558081ED97DD700F0A945 /* ExampleConfig.plist */,
 			);
 			path = "mediakeys-spotify-connect";
 			sourceTree = "<group>";
@@ -122,7 +125,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4886951ED0936C00E96056 /* Assets.xcassets in Resources */,
+				1EE558071ED97DC800F0A945 /* Config.plist in Resources */,
 				1E4886981ED0936C00E96056 /* Main.storyboard in Resources */,
+				1EE558091ED97DD700F0A945 /* ExampleConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4886931ED0936C00E96056 /* ViewController.swift in Sources */,
 				1E4886911ED0936C00E96056 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +256,7 @@
 				DEVELOPMENT_TEAM = C22K32THT8;
 				INFOPLIST_FILE = "mediakeys-spotify-connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.hughrawlinson.mediakeys-spotify-connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -266,6 +271,7 @@
 				DEVELOPMENT_TEAM = C22K32THT8;
 				INFOPLIST_FILE = "mediakeys-spotify-connect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.hughrawlinson.mediakeys-spotify-connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -291,6 +297,7 @@
 				1E48869E1ED0936C00E96056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

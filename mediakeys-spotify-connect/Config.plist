@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>authServerURI</key>
+	<string>http://mediakeys-spotify-connect-24112.millenniumfal.com</string>
+	<key>spotifyClientID</key>
+	<string>f800056f66d34079bda920181e5dc0e6</string>
+	<key>redirectURI</key>
+	<string>mediakeys-spotify-connect://spotifyOauthCallback</string>
+</dict>
+</plist>
